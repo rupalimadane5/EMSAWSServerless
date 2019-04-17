@@ -1,0 +1,50 @@
+{
+  "AWSTemplateFormatVersion" : "2010-09-09",
+  "Transform" : "AWS::Serverless-2016-10-31",
+  "Description" : "An AWS Serverless Application.",
+
+  "Resources" : {
+	 "GetEventsLambda" : {
+      "Type" : "AWS::Serverless::Function",
+      "Properties": {
+	    "Description": "Get Events Lambda",
+        "Handler": "EventManagementAWSServerless::EventManagementAWSServerless.GetEventsLambda::FunctionHandler",
+        "Runtime": "dotnetcore2.1", 
+        "CodeUri": "",
+        "MemorySize": 256,
+        "Timeout": 30,
+        "Role": "arn:aws:iam::711407921950:role/lambda_exec_ArithmaticFunctions",
+		"FunctionName" : "GetEventsLambda"
+      }
+    },
+	"PostEventsLambda" : {
+      "Type" : "AWS::Serverless::Function",
+      "Properties": {
+	    "Description": "Post Events Lambda",
+        "Handler": "EventManagementAWSServerless::EventManagementAWSServerless.PostEventsLambda::FunctionHandler",
+        "Runtime": "dotnetcore2.1", 
+        "CodeUri": "",
+        "MemorySize": 256,
+        "Timeout": 30,
+        "Role": "arn:aws:iam::711407921950:role/lambda_exec_ArithmaticFunctions",
+		"FunctionName" : "PostEventsLambda"
+      }
+    },
+	 "GetUserLambda" : {
+      "Type" : "AWS::Serverless::Function",
+      "Properties": {
+	    "Description": "Get User Lambda",
+        "Handler": "EventManagementAWSServerless::EventManagementAWSServerless.GetUserLambda::FunctionHandler",
+        "Runtime": "dotnetcore2.1", 
+        "CodeUri": "",
+        "MemorySize": 256,
+        "Timeout": 30,
+        "Role": "arn:aws:iam::711407921950:role/lambda_exec_ArithmaticFunctions",
+		"FunctionName" : "GetUserLambda"
+      }
+    }
+  },
+
+  "Outputs" : {
+  }
+}

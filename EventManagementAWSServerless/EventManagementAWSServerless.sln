@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventManagementAWSServerless", "EventManagementAWSServerless\EventManagementAWSServerless.csproj", "{E879B52D-87E4-4555-BDD6-69D766434961}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E879B52D-87E4-4555-BDD6-69D766434961}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E879B52D-87E4-4555-BDD6-69D766434961}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E879B52D-87E4-4555-BDD6-69D766434961}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E879B52D-87E4-4555-BDD6-69D766434961}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A8FEE01-402F-4A5F-8269-939D07A3669A}
+	EndGlobalSection
+EndGlobal
